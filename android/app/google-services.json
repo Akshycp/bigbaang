@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "project_number": "697123606374",
+    "project_id": "bigbaang-bbc3c",
+    "storage_bucket": "bigbaang-bbc3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697123606374:android:1c440d36674f0e239282a7",
+        "android_client_info": {
+          "package_name": "com.bigbaanggrocery.bigbaang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697123606374-6u24n2g4kq52bksjrqqi1uobtu05o8rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "a8c035a35249cbf031ccb19bd736ce7cdb872ec2"
+          }
+        },
+        {
+          "client_id": "697123606374-86r5s42tdtnr07fms4r3p98snhima1dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "a2f489930511b9b25284eb2a3d79ba381579a366"
+          }
+        },
+        {
+          "client_id": "697123606374-jlfbhu66hoqos1lnl4p8pvf3o7ignopk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "8f63dc0179dc91e614b74e99f17ed4b9b7079aba"
+          }
+        },
+        {
+          "client_id": "697123606374-lb7qnq9jrojndpmcdgmtj60egt0df97l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "818a1ae89b196f466d764c8f0118e9c9bcd43894"
+          }
+        },
+        {
+          "client_id": "697123606374-lk344ohvc5bi1l54rks7jfkfqcnen7bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "c68d888f4c43f979a1a4515608e2dcbec0d71496"
+          }
+        },
+        {
+          "client_id": "697123606374-v3k2lo5v3f3khg57bfctbtni5of6e4ar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "25649f2b7e61198f911810ba62ee6e732ed2b64a"
+          }
+        },
+        {
+          "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2wZjPxqvK-igpdQ5NjIlCyQpJpuf2s9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697123606374:android:28ba6a9514188a1a9282a7",
+        "android_client_info": {
+          "package_name": "com.example.garudayaan_logistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697123606374-82vfrj0etg3a7cb3uug48ffn9pejs5t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.garudayaan_logistics",
+            "certificate_hash": "c99da4326218af27d606d084fd1c4be97dda306e"
+          }
+        },
+        {
+          "client_id": "697123606374-inkqfooqe3pnvcmfmhh3ms6vgplbrgee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.garudayaan_logistics",
+            "certificate_hash": "25649f2b7e61198f911810ba62ee6e732ed2b64a"
+          }
+        },
+        {
+          "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2wZjPxqvK-igpdQ5NjIlCyQpJpuf2s9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
