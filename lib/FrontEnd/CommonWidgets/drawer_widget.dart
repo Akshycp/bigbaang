@@ -1,22 +1,14 @@
 import 'package:avatar_glow/avatar_glow.dart';
-import 'package:bigbaang/FrontEnd/CommonWidgets/cached_network_image.dart';
 import 'package:bigbaang/FrontEnd/CommonWidgets/common_styles.dart';
 import 'package:bigbaang/FrontEnd/CommonWidgets/loading_widget.dart';
 import 'package:bigbaang/FrontEnd/CommonWidgets/screen_width_and_height.dart';
 import 'package:bigbaang/FrontEnd/CommonWidgets/utils.dart';
 import 'package:bigbaang/FrontEnd/Pages/CategoryPage/category_page.dart';
-import 'package:bigbaang/FrontEnd/Pages/HomePage/home_page.dart';
 import 'package:bigbaang/FrontEnd/Pages/HomePage/providers/home_page_provider.dart';
-import 'package:bigbaang/FrontEnd/Pages/HomePage/widgets/maps_widget_center.dart';
-import 'package:bigbaang/FrontEnd/Pages/LoginPage/phoneVerification/phone_verification.dart';
 import 'package:bigbaang/FrontEnd/Pages/customer_service.dart';
 import 'package:bigbaang/FrontEnd/Pages/my_order_screen.dart';
 import 'package:bigbaang/FrontEnd/Pages/notification_screen.dart';
-import 'package:bigbaang/FrontEnd/Pages/profile_screen.dart';
-import 'package:bigbaang/FrontEnd/Pages/rating_review.dart';
-import 'package:bigbaang/FrontEnd/Pages/save_product_screen.dart';
 import 'package:bigbaang/FrontEnd/deliver_location.dart';
-import 'package:bigbaang/Models/cart_address.dart';
 import 'package:bigbaang/Models/profile_model.dart';
 import 'package:bigbaang/backend/service/firebase_auth_service.dart';
 import 'package:bigbaang/service/api_service.dart';
@@ -227,7 +219,6 @@ Drawer drawer(BuildContext context, Key scaffoldKey) {
                           ),
                         ),
                       ),
-
                       Utils.getSizedBox(height: 20),
                       Padding(
                         padding: const EdgeInsets.symmetric(
@@ -815,8 +806,7 @@ class _BottomSheetAddLocationState extends State<BottomSheetAddLocation> {
                     onPressed: () async {
                       String returnObject = await Navigator.of(context).push(
                           MaterialPageRoute(
-                              builder: (context) =>
-                                  const SearchPage()));
+                              builder: (context) => const SearchPage()));
                       if (returnObject == null) {
                         Utils.getFloatingSnackBar(
                             context: context,

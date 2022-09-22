@@ -1,9 +1,6 @@
 import 'package:bigbaang/FrontEnd/CommonWidgets/utils.dart';
-import 'package:bigbaang/FrontEnd/Pages/all_product_view.dart';
-import 'package:bigbaang/service/api_service.dart';
 import 'package:bigbaang/widgets/offer_tag.dart';
 import 'package:bigbaang/widgets/price_tag.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FrequentlyBoughtTogether extends StatefulWidget {

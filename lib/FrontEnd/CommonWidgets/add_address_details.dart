@@ -19,8 +19,6 @@ class AddressDetails extends StatefulWidget {
 }
 
 class _AddressDetailsState extends State<AddressDetails> {
-
-
   final _formKey = GlobalKey<FormState>();
 
   final _landMarkKey = GlobalKey<FormState>();
@@ -65,7 +63,9 @@ class _AddressDetailsState extends State<AddressDetails> {
                     ),
                     Utils.getSizedBox(height: 10),
                     Utils.getSizedBox(height: 10),
-                    SizedBox(height: 5,),
+                    const SizedBox(
+                      height: 5,
+                    ),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.9,
                         child: Text(
@@ -90,7 +90,7 @@ class _AddressDetailsState extends State<AddressDetails> {
                                 5), //  <- you can it to 0.0 for no space
                             isDense: true,
                             enabledBorder: const UnderlineInputBorder(
-                                borderSide:  BorderSide(color: Colors.grey)),
+                                borderSide: BorderSide(color: Colors.grey)),
                             focusedBorder: UnderlineInputBorder(
                                 borderSide:
                                     BorderSide(color: Colors.red[400]!)),
@@ -176,13 +176,17 @@ class _AddressDetailsState extends State<AddressDetails> {
                               lat: widget.lat,
                               long: widget.lng);
                           if (result == "1") {
-                            context.read<ProfileApiProvder>().fetchProfileDetails();
+                            context
+                                .read<ProfileApiProvder>()
+                                .fetchProfileDetails();
 
                             Navigator.of(context).pop();
                             Navigator.of(context).pop();
                             Navigator.of(context).pop("success");
                           } else {
-                            context.read<ProfileApiProvder>().fetchProfileDetails();
+                            context
+                                .read<ProfileApiProvder>()
+                                .fetchProfileDetails();
 
                             Utils.getFloatingSnackBar(
                                 context: context,
