@@ -7,12 +7,57 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:697123606374:android:d804a0657160afad9282a7",
+        "android_client_info": {
+          "package_name": "com.bigbaangdelivery.bigbaangdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697123606374-6rpmch88l710igoclopq51t3a50v04a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaangdelivery.bigbaangdelivery",
+            "certificate_hash": "3a4f72af6294aa5abd5857b957901029004ac1e7"
+          }
+        },
+        {
+          "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2wZjPxqvK-igpdQ5NjIlCyQpJpuf2s9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:697123606374:android:1c440d36674f0e239282a7",
         "android_client_info": {
           "package_name": "com.bigbaanggrocery.bigbaang"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "697123606374-0mdmdjhg62faq3573sgemhh1bdhruunn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigbaanggrocery.bigbaang",
+            "certificate_hash": "b5c0a888217cf4feb6cd8d63dbfe4f4a6c32851e"
+          }
+        },
         {
           "client_id": "697123606374-6u24n2g4kq52bksjrqqi1uobtu05o8rq.apps.googleusercontent.com",
           "client_type": 1,
@@ -61,6 +106,35 @@
             "certificate_hash": "25649f2b7e61198f911810ba62ee6e732ed2b64a"
           }
         },
+        {
+          "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2wZjPxqvK-igpdQ5NjIlCyQpJpuf2s9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697123606374:android:86bbb0df4c8aab829282a7",
+        "android_client_info": {
+          "package_name": "com.bigbaanggroceryin.bigbaang"
+        }
+      },
+      "oauth_client": [
         {
           "client_id": "697123606374-rnn8hirt3sql2ir7nk9aj62c6cak4ian.apps.googleusercontent.com",
           "client_type": 3
